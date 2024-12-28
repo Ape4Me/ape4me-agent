@@ -22,9 +22,11 @@ Download and Install: Follow the installation instructions to set up the applica
 
 Configure Your Settings: Specify the groups and channels you wish to monitor for token addresses.
 
-Generate Wallets: Create up to three wallets and manage your keys securely.
+Generate Wallets in <a href="https://t.me/@ape4mebot" target="_blank">@ape4mebot</a>: Create up to three wallets and manage your keys securely.
 
 Set Purchase Parameters: Define the amount of SOL for token purchases.
+
+Update config: Use your walleets ID from telegram bot in Agent filter settings, to set which wallet must buy tokens from which channel/group.
 
 Start Monitoring: Let the application handle the rest, ensuring timely token acquisitions.
 
