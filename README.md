@@ -5,9 +5,13 @@ Ape4Me Agent is a Windows application designed to seamlessly connect with your T
 
 ### Key Features
 Automated Monitoring: Effortlessly track token addresses in your chosen Telegram groups and channels.
+
 Trade API Integration: Once a token address and wallet ID are identified, our API executes the purchase as quickly as possible.
+
 Wallet Management: Generate up to three free wallets, complete with public and private keys. You can also specify the amount of SOL for token purchases when the API receives an address.
+
 Privacy Assurance: The application does not share or access information about your channels and groups, maintaining your privacy even if they are private.
+
 Local Processing: All Telegram monitoring logic operates on your PC, ensuring that only the token address and wallet ID are transmitted to our API, as provided by our Telegram bot.
 
 ### Security and Privacy
