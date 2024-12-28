@@ -19,26 +19,40 @@ Your privacy is our priority. The application is designed to function without ac
 
 ### Getting Started
 Download and Install: Follow the installation instructions to set up the application on your Windows PC.
+
 Configure Your Settings: Specify the groups and channels you wish to monitor for token addresses.
+
 Generate Wallets: Create up to three wallets and manage your keys securely.
+
 Set Purchase Parameters: Define the amount of SOL for token purchases.
+
 Start Monitoring: Let the application handle the rest, ensuring timely token acquisitions.
 
 ### How to get Telegrams Channel/Group ID
 #### Method 1 (Web A)
 This is based on JayeshRocks’s question with some extra steps to make the ID work with Bot API.
+
 Login to Telegram Web A.
+
 Open the chat you want to get its ID.
+
 Your browser’s address should look like https://web.telegram.org/a/#-1527776602.
+
 Remove the scheme, the hostname and the path, keeping the anchor so your result looks like #-1527776602.
+
 Replace “#-” so it looks like 1527776602.
+
 You can now use your final result which should look like 1527776602.
 
 #### Method 2 (Private Supergroups)
 If the chat is a private channel/supergroup, you can do the following:
+
 Copy a link of a message. (It will look like https://t.me/c/1527776602/1002.)
+
 Remove the protocol and domain name, so it looks like c/1527776602/1002.
+
 Remove the first and last path, so it looks like 1527776602.
+
 You can now use your final result which looks like 1527776602.
 
 ### Contribution
