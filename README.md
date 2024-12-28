@@ -26,9 +26,9 @@ Generate Wallets in <a href="https://t.me/@ape4mebot" target="_blank">@ape4mebot
 
 Set Purchase Parameters: Define the amount of SOL for token purchases.
 
-Update config: Use your walleets ID from telegram bot in Agent filter settings, to set which wallet must buy tokens from which channel/group.
+Update config: Use your wallets ID from telegram bot in Agent filter settings, to set which wallet must buy tokens from which channel/group.
 
-Start Monitoring: Let the application handle the rest, ensuring timely token acquisitions.
+Start Monitoring: Launch app & let it handle the rest, ensuring timely token acquisitions.
 
 ### How to get Telegrams Channel/Group ID
 #### Method 1 (Web A)
@@ -44,8 +44,6 @@ Remove the scheme, the hostname and the path, keeping the anchor so your result 
 
 Replace “#-” so it looks like 1527776602.
 
-You can now use your final result which should look like 1527776602.
-
 #### Method 2 (Private Supergroups)
 If the chat is a private channel/supergroup, you can do the following:
 
@@ -54,8 +52,6 @@ Copy a link of a message. (It will look like https://t.me/c/1527776602/1002.)
 Remove the protocol and domain name, so it looks like c/1527776602/1002.
 
 Remove the first and last path, so it looks like 1527776602.
-
-You can now use your final result which looks like 1527776602.
 
 ### Contribution
 We welcome contributions from the community. Feel free to fork the repository, make improvements, and submit pull requests.
