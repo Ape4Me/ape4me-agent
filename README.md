@@ -1,8 +1,27 @@
 # Ape4Me Agent
-Telegram useragent Windows application that connects your telegram account and watch for the Solana / pump.fun token address in groups and channels you sets in configuration, then sends buy signal to our trade API. When trade API gets Token Address and Wallet ID it will buy this token as soon as possible. You can generate up to 3 free wallets, gets their public and private keys and also set amount of SOL for token purchase when API gets address. The app don't share or have access to information about your channels and groups, also they can be private. The logic of the telegrams part, where it watch groups and channels works on users PC, our API gets only token address and wallet id that was given to user by our telegram bot.
 
-## How to get Telegrams Channel/Group ID
-Method 1 (Web A)
+### Overview
+Ape4Me Agent is a Windows application designed to seamlessly connect with your Telegram account. Its primary function is to monitor specified Solana and pump.fun token addresses within the groups and channels you configure. Upon detecting a token address, the application promptly sends a buy signal to our trade API, ensuring swift token acquisition.
+
+### Key Features
+Automated Monitoring: Effortlessly track token addresses in your chosen Telegram groups and channels.
+Trade API Integration: Once a token address and wallet ID are identified, our API executes the purchase as quickly as possible.
+Wallet Management: Generate up to three free wallets, complete with public and private keys. You can also specify the amount of SOL for token purchases when the API receives an address.
+Privacy Assurance: The application does not share or access information about your channels and groups, maintaining your privacy even if they are private.
+Local Processing: All Telegram monitoring logic operates on your PC, ensuring that only the token address and wallet ID are transmitted to our API, as provided by our Telegram bot.
+
+### Security and Privacy
+Your privacy is our priority. The application is designed to function without accessing or sharing any personal information about your Telegram groups and channels. All operations related to monitoring are conducted locally on your device.
+
+### Getting Started
+Download and Install: Follow the installation instructions to set up the application on your Windows PC.
+Configure Your Settings: Specify the groups and channels you wish to monitor for token addresses.
+Generate Wallets: Create up to three wallets and manage your keys securely.
+Set Purchase Parameters: Define the amount of SOL for token purchases.
+Start Monitoring: Let the application handle the rest, ensuring timely token acquisitions.
+
+### How to get Telegrams Channel/Group ID
+#### Method 1 (Web A)
 This is based on JayeshRocks’s question with some extra steps to make the ID work with Bot API.
 Login to Telegram Web A.
 Open the chat you want to get its ID.
@@ -11,9 +30,12 @@ Remove the scheme, the hostname and the path, keeping the anchor so your result 
 Replace “#-” so it looks like 1527776602.
 You can now use your final result which should look like 1527776602.
 
-Method 2 (Private Supergroups)
+#### Method 2 (Private Supergroups)
 If the chat is a private channel/supergroup, you can do the following:
 Copy a link of a message. (It will look like https://t.me/c/1527776602/1002.)
 Remove the protocol and domain name, so it looks like c/1527776602/1002.
 Remove the first and last path, so it looks like 1527776602.
 You can now use your final result which looks like 1527776602.
+
+### Contribution
+We welcome contributions from the community. Feel free to fork the repository, make improvements, and submit pull requests.
